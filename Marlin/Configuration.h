@@ -530,7 +530,8 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 85.3333, 85.3333, 2560, 158.8308 }
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 85.3333, 85.3333, 2560, 158.8308 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 78.4674, 79.1956, 2500, 120 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -794,7 +795,7 @@
 
 /**
  * Software Endstops
- *
+1.75 *
  * - Prevent moves outside the set machine bounds.
  * - Individual axes can be disabled, if desired.
  * - X and Y only apply to Cartesian robots.
